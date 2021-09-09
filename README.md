@@ -2,11 +2,13 @@
 [www.migratewp.org](https://migratewp.org)
 
 
+
 ## What is MigrateWP?
 
 MigrateWP is a command line utility that lets you migrate a Wordpress site from a macOS [Local](https://www.localwp.com)
  development environment to a Linux server with a single command. It is open source software released by [Tartan Web Design](https://tartanwebdesign.net) under the GPLv2 licence. 
 
+![screen-gif](https://migratewp.org/wp-content/uploads/2021/09/migrate-1.1-push.gif)
 
 
 ## Who is MigrateWP for?
@@ -40,13 +42,13 @@ MigrateWP has four commands, push, pull, rollback & report.
 
 The push command migrates a site from your local to machine to a remote server 
 
-`mwp pull sitename`
+`mwp push sitename`
 
 **Pull**
 
 The pull command migrates a site from the remote server to your local machine
 
-`mwp push sitename`
+`mwp pull sitename`
 
 **Rollback**
 
